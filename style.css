@@ -1,36 +1,21 @@
-body{
+/* body{
     font-family:'Montserrat', sans-serif;
-}
+} */
+:root{
+    background-color:#00BFA5;
+    background-color: #2C2E35;
+    background-color: #8F9091;
+    background-color: #F4F4F4;
+    font-family: 'Montserrat', sans-serif;
 
+}
 header{
     width:100vw;
     position:fixed;
     top:0;
     z-index:2;
 }
-.navbar-dark .navbar-nav .nav-link{
-   color:#1abc9c;
-}
 
-.navbar-dark .navbar-nav .nav-link:hover{
-    color:#1abc9c;
-
-}
-
-.navbar-dark .navbar-brand {
-    color:#1abc9c;
-    
-}
-.activado{
-    border-bottom:2px solid #1abc9c;
-    font-weight:bold;
-}
-
-#main .carousel-inner img {
-  max-height: 80vh;
-  object-fit: cover;
-  filter: grayscale(70%);
-}
 
 #carrousel{
    position:relative; 
@@ -41,7 +26,7 @@ header{
 .overlay{
     z-index:1;
     position:absolute;
-    top:0;
+    top:50;
     left:0;
     right:0;
     bottom: 0;
